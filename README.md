@@ -40,7 +40,7 @@ ResumeATS Pro is a sophisticated Java-based desktop application designed to help
 ### 🎨 User Experience
 - **Modern Dark Theme** - Professional, eye-friendly interface
 - **Responsive Design** - Smooth interactions and animations
-- **Progress Indicators** - Real-time operation feedback
+- **Beginner Friendly** - Easy to use and clean UI/UX
 
 ---
 
