@@ -15,7 +15,7 @@ public class LoginPagePro extends JFrame {
     
     private static final String DB_URL = "jdbc:mysql://localhost:3306/resume_ats_pro";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "Akshat@123"; // CHANGE THIS TO YOUR PASSWORD
+    private static final String DB_PASSWORD = " "; // CHANGE THIS TO YOUR PASSWORD
     
     public LoginPagePro() {
         setupUI();
@@ -231,4 +231,5 @@ public class LoginPagePro extends JFrame {
             loginPage.setVisible(true);
         });
     }
+
 }
