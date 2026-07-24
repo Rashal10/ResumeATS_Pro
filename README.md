@@ -13,38 +13,32 @@
 
 </div>
 
-## 📊 Overview
+## Overview
 
 ResumeATS Pro is a sophisticated Java-based desktop application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). By analyzing keyword compatibility between resumes and job descriptions, it provides actionable insights to improve job application success rates.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔐 Authentication & Security
+###  Authentication & Security
 - **Secure User Registration** - Create personalized accounts
 - **Encrypted Login System** - Protect user credentials
 - **Session Management** - Maintain user context throughout application
 
-### 📄 Resume Processing
+###  Resume Processing
 - **File Upload Support** - Process text-based resumes (.txt)
 - **Content Extraction** - Intelligent text parsing and analysis
 - **Progress Tracking** - Visual indicators for file processing
 
-### 🎯 ATS Analysis
+###  ATS Analysis
 - **Keyword Matching** - Advanced algorithm for skill matching
 - **Score Calculation** - Comprehensive compatibility scoring
 - **Detailed Analytics** - Statistical breakdown and insights
 - **Improvement Suggestions** - Actionable recommendations
 
-### 🎨 User Experience
-- **Modern Dark Theme** - Professional, eye-friendly interface
-- **Responsive Design** - Smooth interactions and animations
-- **Beginner Friendly** - Easy to use and clean UI/UX
 
----
-
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -56,7 +50,7 @@ ResumeATS Pro is a sophisticated Java-based desktop application designed to help
 
 ---
 
-## 📥 Installation
+## Installation
 
 ### Prerequisites
 
@@ -103,7 +97,7 @@ mvn exec:java
 
 ---
 
-## 🚀 Usage Guide
+## Usage Guide
 
 ### 1. Account Creation
 - Launch the application
@@ -132,7 +126,7 @@ mvn exec:java
 
 ---
 
-## 📊 ATS Scoring System
+## ATS Scoring System
 
 ### Score Interpretation
 
@@ -158,7 +152,7 @@ ATS Score = (Matching Keywords ÷ Total Job Keywords) × 100
 
 ---
 
-## 🗃️ Database Schema
+## Database Schema
 
 ### Users Table
 ```sql
@@ -174,7 +168,7 @@ CREATE TABLE users (
 
 
 
-## 🔧 Development
+## Development
 
 ### Project Structure
 ```
@@ -212,25 +206,7 @@ mvn package
 
 ---
 
-## 🐛 Troubleshooting
-
-### Common Issues & Solutions
-
-| Issue | Solution |
-|-------|----------|
-| **Database Connection Failed** | Verify MySQL service is running and credentials are correct |
-| **File Upload Errors** | Ensure files are .txt format and not open in other programs |
-| **Compilation Failures** | Check JDK installation and Maven configuration |
-| **UI Rendering Issues** | Verify FlatLaf dependencies in pom.xml |
-
-### Performance Tips
-- Keep resume files under 5000 characters for optimal performance
-- Use focused, relevant job descriptions
-- Regular database maintenance for user management
-
----
-
-## 🌟 Future Roadmap
+##  Future Plans
 
 ### Phase 1: Enhanced File Support
 - [ ] PDF document parsing
@@ -248,22 +224,3 @@ mvn package
 - [ ] API for integration
 
 ---
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-
-<div align="center">
-
-### ⭐ Star if you find this project helpful!
-
-**Built with ❤️ using Java by Rashal**
-
-</div>
